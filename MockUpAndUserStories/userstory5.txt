@@ -1,1 +1,0 @@
-“As a student user, when I click on the Team page, I should see the information of all the TAs and the course instructor.”

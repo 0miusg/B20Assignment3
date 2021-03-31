@@ -1,1 +1,0 @@
-"As a student user I want a button to be highlighted when I'm hovering over it"

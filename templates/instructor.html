@@ -390,7 +390,7 @@ Once you are up and running, I recommend downloading the Not So Short Guide to L
         <div class="title">Grades</div><br><br>
         <!--DUMMY FORM-->
         <div id="grade_table">
-            <table>
+            <table class="center">
                 <tr>
                     <th>Name</th>
                     <th>Username</th>
@@ -409,19 +409,23 @@ Once you are up and running, I recommend downloading the Not So Short Guide to L
                 <tr>
                     <td>{{ item['Name']}}</td>
                     <td>{{ item['Username']}}</td>
-                    <td>{{ item['Assignment 1']}}</td>
-                    <td>{{ item['Assignment 2']}}</td>
-                    <td>{{ item['Assignment 3']}}</td>
-                    <td>{{ item['Assignment 4']}}</td>
-                    <td>{{ item['Term Test 1']}}</td>
-                    <td>{{ item['Term Test 2']}}</td>
-                    <td>{{ item['Term Test 3']}}</td>
-                    <td>{{ item['Term Test 4']}}</td>
+                    <td>{{ item['A1']}}</td>
+                    <td>{{ item['A2']}}</td>
+                    <td>{{ item['A3']}}</td>
+                    <td>{{ item['A4']}}</td>
+                    <td>{{ item['TT1']}}</td>
+                    <td>{{ item['TT2']}}</td>
+                    <td>{{ item['TT3']}}</td>
+                    <td>{{ item['TT4']}}</td>
                 </tr>
                 {% endfor %}
                 
             </table>
-            
+            {% for item in regrade%}
+            <div class="regrade_request">
+                {{item[]}}
+            </div>
+            {% endfor %}
         </div>
     </div>
 
@@ -429,9 +433,7 @@ Once you are up and running, I recommend downloading the Not So Short Guide to L
     <div class="page_white" id="feedback">
         <div class="title">Feedback (Anonymous)</div><br><br>
         <!--DUMMY FORM-->
-        <table name="feedback">
-            <tr><th>Feedbacks</th></tr>
-        </table>
+        
     </div>
 
     <!--------------------------------------------------FOOTER--------------------------------------------------->

@@ -46,7 +46,7 @@ def root():
     for student in query_db('select * from Students'):
         students.append(student)
     db.close()
-    return render_template('index.html', student=students)
+    return render_template('instructor.html', student=students)
 
 if __name__ == "__main__":
     app.run(debug=True)

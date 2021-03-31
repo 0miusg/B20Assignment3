@@ -1,1 +1,0 @@
-“As a student user, when I scroll the page, I want the navigation bar to stay in view.”

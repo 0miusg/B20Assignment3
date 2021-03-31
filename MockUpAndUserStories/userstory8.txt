@@ -1,1 +1,0 @@
-"As a student user, when I click on a link to a new page, I want to scroll me down to the corresponding section instead of taking me to a new link."

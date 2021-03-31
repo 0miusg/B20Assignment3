@@ -1,1 +1,0 @@
-“As a student user I want to see course information and contacts on the home page”
